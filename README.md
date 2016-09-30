@@ -2,7 +2,8 @@
 
 This README describes how to replicate the analysis in our paper.
 
-Part A: Simulation of Infectious Process on Contact Networks.
+**Part A: Simulation of Infectious Process on Contact Networks.**
+
    `A1.)` Use R to run "Simulation.R" For values `1-2000` of `SEED`.  (The code is arranged this way for easy paralellization.)
         Note that this code calls `data_code.py`, which generates the synthetic contact networks and performs the epidemic process.
         
@@ -11,11 +12,11 @@ Part A: Simulation of Infectious Process on Contact Networks.
         
    `A3.)` Use R to run "global analysis.R" for final formatting.
 
-Part B: Application to Microfinance Data.
+**Part B: Application to Microfinance Data.**
 
-   `B1.)` The microfinance data used in this paper is publically available, referenced here:  http://economics.mit.edu/faculty/eduflo/social
+   `B1`. The microfinance data used in this paper is publically available, referenced here:  http://economics.mit.edu/faculty/eduflo/social
    
-   `B2.)` use Python to run `data generation.py` to compile the microfinance data into a single dataset.
+   `B2`. use Python to run `data generation.py` to compile the microfinance data into a single dataset.
    
    `B3.)` Use R to run `Data Completion.R` to concatenate the data with the defined exposures.
    
