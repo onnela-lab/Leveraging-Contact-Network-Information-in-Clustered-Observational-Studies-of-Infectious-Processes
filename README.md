@@ -1,6 +1,6 @@
 # Leveraging-Contact-Network-Information-in-Clustered-Observational-Studies-of-Infectious-Processes
 
-This README describes how to replicate the analysis in our paper.
+This README describes how to replicate the analysis in our manuscript.
 
 **Part A: Simulation of Infectious Process on Contact Networks.**
 
