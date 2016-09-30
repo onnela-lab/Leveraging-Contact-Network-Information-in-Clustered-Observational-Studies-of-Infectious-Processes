@@ -4,9 +4,9 @@ This README describes how to replicate the analysis in our paper.
 
 **Part A: Simulation of Infectious Process on Contact Networks.**
 
-   1. Use R to run "Simulation.R" For values `1-2000` of `SEED`.  (The code is arranged this way for easy paralellization.)
+   1. Use R to run `simulation.R` For values `1-2000` of `SEED`.  (The code is arranged this way for easy paralellization.)
         Note that this code calls `data_code.py`, which generates the synthetic contact networks and performs the epidemic process.       
-   2. Use R to run "Analysis.R" for  values `1-2000` of `SEED`.  This code is also designed for paralellization.  This creates all relevant simulation output.
+   2. Use R to run `analysis.R` for  values `1-2000` of `SEED`.  This code is also designed for paralellization.  This creates all relevant simulation output.
         Note that this will require downloading the "OBSgeeDR" package for observational augmented GEE analysis.        
    3. Use R to run "global analysis.R" for final formatting.
 
